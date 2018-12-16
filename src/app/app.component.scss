@@ -1,0 +1,221 @@
+$color-white : #fff;
+$background-green : #06a763;
+$text-green:#06a763;
+$container-width:100%;
+
+@media (max-width:767px){
+    .container{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .education{
+        .container{
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+    .contact-section{
+        .container{
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+        }
+    }
+    #about-btn{
+        .waves-effect{
+        display: block;
+        margin-bottom: 10px;
+        }
+        
+    }
+    .profile-image{
+        #profile{
+            float: none !important;
+            left: 36% !important;
+            top: -80px !important;
+            .profile-img{
+                width: 120px !important;
+                height: 120px !important;
+                border-radius: 50%;
+            }
+        }
+        
+        
+    }
+    .slant{
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:992px){
+    .container{
+        padding-left:50px !important;
+        padding-right:50px !important;
+    }
+}
+.container{
+    padding: 0 120px;
+}
+
+section{
+    margin-bottom: 70px;
+}
+.card-style{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.resumetemplate .container{
+    width: $container-width;
+    padding-top: 180px;
+}
+
+.headerSection{
+    color: $color-white;
+    background: $background-green;
+    position: relative;
+    h4{
+    display: block;
+    width: 100%;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+    font-size: 2.18rem;
+    line-height: 110%;
+    margin: 1.14rem 0 0.912rem 0;
+    }
+    #profile {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        top:0;
+    }
+    #profile img{
+        width: 392px;
+        height: auto;
+        
+    }
+    .slant {
+        top: 0;
+        z-index: 1;
+        position: absolute;
+        border-style: solid;
+        border-width: 396px 0 0 100px;
+        border-color: rgba(223, 50, 50, 0) transparent transparent #06A763;
+    }
+    h6{
+    display: block;
+    width: 100%;
+    font-weight: 300;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+    }
+    .title{
+    font-size: 23px;
+    top: 3px;
+    position: relative;
+    margin-right: 7px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .btn-floating{
+        color: #fff;
+        margin-right: 12px;
+        margin-bottom: 4px;
+        background: #3f51b5;
+        border-radius: 50%;
+        padding: 10px;
+        font-size: 1rem;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+        &:hover{
+            box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+        }
+}
+        
+    }
+.about-section{
+    .container{
+        width: $container-width;
+        #about-btn{
+            padding: 20px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            a{
+                background: $text-green;
+                padding: 8px 20px;
+                color: #fff;
+                margin-right: 10px;
+                &:hover, &:focus {
+                background: $text-green;
+                padding: 8px 20px;
+                color: #fff;
+                margin-right: 10px;
+                text-decoration: none;
+                box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+                }
+            }
+        }
+    }
+
+}  
+
+.education-heading{
+    .container{
+        width: $container-width;
+    }
+    h4{
+        font-size: 40px;
+    }
+}
+
+.skills-section{
+    .container{
+        width: $container-width;
+        .row{
+            background: $background-green;
+            color: $color-white;
+            .progress-section{
+                margin-bottom: 10px;
+            }
+            .progress{
+                height: 4px;
+                border-radius: 0;
+                background-color: rgba(0,0,0,0.1);
+                .progress-bar{
+                    background: #fff;
+                }
+            }
+            p{
+                font-size: 20px;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
+                
+            }
+        }
+    }
+}
+
+.portofolio-section{
+    .container{
+        width: $container-width;
+    }
+}
+
+.contact-section{
+    .container{
+        width: $container-width;
+    }
+}
+.header-section{
+    position: absolute;
+    .header-img{
+        height: 400px;
+        width: 100%;
+    }
+}
+
+
+// Timeline Css
+
